@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Plant Shop</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <h1>Plant Shop</h1>
+    </header>
+
+    <section id="featured-plants">
+        <h2>Featured Plants</h2>
+        <div class="card">
+            <img src="cactus_plant.jpg" alt="Featured Plant 1">
+            <h3>Featured Plant 1</h3>
+            <p>This is a stunning featured plant with vibrant colors and unique features.</p>
+        </div>
+        <div class="card">
+            <img src="snow_money.jpg" alt="Featured Plant 2">
+            <h3>Featured Plant 2</h3>
+            <p>Explore the beauty of nature with our handpicked selection of exquisite plants.</p>
+        </div>
+    </section>
+
+    <main id="plant-list">
+        <!-- Plant products will be dynamically added here -->
+    </main>
+
+    <section id="about-us">
+        <h2>About Us</h2>
+        <p>Welcome to Plant Shop, your one-stop destination for all things green! We are passionate about providing high-quality plants to enhance your living spaces.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance? Reach out to us!</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
